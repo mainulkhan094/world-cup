@@ -80,7 +80,7 @@
 
 .match-details {
     margin-top: 130px;
-    flex-grow: 1;
+
 }
 
 .fixed-section {
@@ -111,7 +111,7 @@
     font-size: 20px;
     width: 250px;
     height: 65px;
-
+    border: 1px solid#E8E8E8;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 5px;
 
@@ -122,6 +122,7 @@
     font-size: 20px;
     width: 250px;
     height: 65px;
+    border: 1px solid#E8E8E8;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 5px;
 
@@ -268,6 +269,7 @@ hr {
     justify-content: space-around;
     align-items: center;
 
+
 }
 
 .match-name2 {
@@ -283,3 +285,116 @@ hr {
 }
 
 /* index2 design  main end */
+
+/*-------------------------
+ mobile  design 
+ --------------------------*/
+
+/* media query start */
+
+@media only screen and (max-width:480px) {
+    #header {
+
+        display: block;
+        height: auto;
+        width: auto;
+        text-align: center;
+
+
+
+    }
+
+    .big {
+        width: 100%;
+        font-size: 28px;
+        padding-top: 28px;
+        padding-bottom: 8px;
+
+
+    }
+
+
+    .header-title {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+
+
+    .button-style {
+        width: 100%;
+
+    }
+
+    img {
+        display: flex;
+        width: 233px;
+        height: 245px;
+        align-items: center;
+    }
+
+    .match-highlight {
+
+
+
+        margin: auto;
+        padding-top: 400px;
+
+
+    }
+
+    .fixed-section {
+        background-color: white;
+
+    }
+
+
+
+
+    .matchs {
+        display: grid;
+        height: auto;
+        width: 45%;
+        grid-template-columns: repeat(1, 1fr);
+
+
+    }
+
+
+
+    .footer {
+        height: auto;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .foot2 {
+
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        margin-left: 50PX;
+
+
+    }
+
+    .foot3 {
+
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        margin-left: 1PX;
+        padding-bottom: 40px;
+
+
+    }
+
+}
